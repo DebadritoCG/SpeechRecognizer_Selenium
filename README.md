@@ -11,7 +11,7 @@ This project implements a fast speech recognizer using Selenium and JavaScript W
 - **Fast Recognition:** Utilizes Selenium and JavaScript WebKit Speech Recognition for rapid and reliable speech recognition.
 - **Easy Integration:** Simple integration with existing projects or applications, providing a user-friendly voice interface.
 - **Customizable:** Easily adaptable for different applications and scenarios.
-- **Cross-Browser Compatibility:** Works across major web browsers, ensuring versatility and compatibility.
+- **Browser Compaitability:** Need to Install Chrome or Edge Browser for this to work.
 
 ## How it Works
 
@@ -28,4 +28,15 @@ The project consists of two main components:
    ```bash
    git clone https://github.com/DebadritoCG/SpeechRecognizer_Selenium.git
    cd SpeechRecognizer_Selenium
+   ```
+2. Install Dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Use The Speech Recognizer
+   ```py
+   from SpeechRecognizer import Listen
+   print('Listening...')
+   result = Listen()
+   print(f'You Said: {result}')
    ```
