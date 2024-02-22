@@ -28,9 +28,3 @@ def Listen():
         if text != "":
             driver.find_element(by=By.ID, value='end').click()
             return str(text)
-
-if __name__ == "__main__":
-  #Testing
-  print('Listening...')
-  result = Listen()
-  print(f'You Said: {result}')
