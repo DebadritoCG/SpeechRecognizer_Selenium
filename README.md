@@ -1,4 +1,4 @@
-# Fast Speech Recognizer with Selenium and JS WebKit Speech Recognition
+# Fast Speech Recognizer with Selenium(Python) and JS WebKit Speech Recognition
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
